@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "random.c"
+#include "random.h"  /* Include the header file for randchar */
 
 
-char randchar();
+
 int main()
 {
 	int a;
